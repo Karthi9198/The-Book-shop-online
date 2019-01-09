@@ -15,7 +15,12 @@
 	</properties>
 
 	<dependencies>
-
+ <!-- Linking backend project -->
+ <dependency>
+ 	<groupId>com.niit</groupId>
+	<artifactId>bookshopbackend</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+ </dependency>
 		<!-- JAVAEE API -->
 		<dependency>
 			<groupId>javax</groupId>
@@ -39,6 +44,7 @@
 			<artifactId>spring-webmvc</artifactId>
 			<version>${spring.version}</version>
 		</dependency>
+		
 		<!-- JSTL -->
 		<dependency>
 			<groupId>jstl</groupId>
