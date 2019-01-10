@@ -45,8 +45,18 @@ public class CategoryDAOimpl implements CategoryDAO {
 	
 	@Override
 	public List<Category> list() {
-		// TODO Auto-generated method stub
+	
 		return categories;
+	}
+
+	@Override
+	public Category get(int id) {
+		//enhanced for loop
+		for(Category category:categories) {
+			if(category.getId()==id) return category;
+		}
+		
+		return null;
 	}
 
 }

@@ -11,10 +11,11 @@
 					<li class="nav-item active"><a class="nav-link" href="#">Home
 							<span class="sr-only">(current)</span>
 					</a></li>
-					<li id="about" class="nav-item"><a class="nav-link" href="${contextRoot}/about">About</a></li>
-					<li id="listProducts" class="nav-item"><a class="nav-link" href="${contextRoot}/listProducts">View Products</a>
+					<li id="about" ><a href="${contextRoot}/about">About</a></li>
+					
+					<li id="contact" ><a href="${contextRoot}/contact">Contact</a>
 					</li>
-					<li id="contact" class="nav-item"><a class="nav-link" href="${contextRoot}/contact">Contact</a>
+					<li id="listProducts" ><a href="${contextRoot}/show/all/products">View Products</a>
 					</li>
 				</ul>
 			</div>
